@@ -1,0 +1,22 @@
+{
+  "name": "solana-nfts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "network": "solana-test-validator"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-candy-machine": "^6.0.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.9.1",
+    "@solana/web3.js": "^1.90.0",
+    "bs58": "^5.0.0"
+  }
+}
